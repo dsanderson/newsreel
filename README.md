@@ -24,4 +24,4 @@ Git clone the repository wherever you want.
 
 Edit line 3 in `db_utils.py `to connect to your database.  You can test the connection by running `python db_utils.py`
 
-Run `python newsreel.py --create` to generate the table schema.  Run `python newsreel.py --add source None None` to allow manual article addition.  After, run `python newsreel.py --deactivat None`.  Next, run `python newsreel.py --add source [display name] [url]` to add a source, changing display name and url to whatever you want.  Finally, run `python newsreel.py` to scrape the source(s) you added.
+Run `python newsreel.py --create` to generate the table schema.  Run `python newsreel.py --add source None None` to allow manual article addition.  After, run `python newsreel.py --deactivate None`.  Next, run `python newsreel.py --add source [display name] [url]` to add a source, changing display name and url to whatever you want.  Finally, run `python newsreel.py` to scrape the source(s) you added.
